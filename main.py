@@ -1,8 +1,3 @@
-'''
-snake=1
-water=0
-gun=-1
-'''
 import random
 dic={
     'snake':1,
@@ -29,29 +24,3 @@ elif machine-user_num==-2 or machine-user_num==1:
 else:
     print("Some error occured !")
     
-
-# Explanation: 
-
-# if user_num == machine:
-#     print("Draw !")
-# else:
-#     if user_num==1 and machine==0:
-
-#         print("You win !")
-#     elif user_num==0 and machine==1:
-
-#         print("You lose !")
-#     elif user_num==1 and machine==-1:
-
-#         print("You lose !")
-#     elif user_num==-1 and machine==1:
-
-#         print("You win !")
-#     elif user_num==0 and machine==-1:
-
-#         print("You win !")
-#     elif user_num==-1 and machine==0:
-
-#         print("You lose !")
-#     else:
-#         print("Some error occured !")
